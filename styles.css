@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Press+Start+2P&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #222;
+}
+
+* {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+
+header {
+  height: 200px;
+  position: relative;
+  border-bottom: 7px solid white;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+
+.left {
+  position: relative;
+  left: 5%;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+.again {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.range {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+}
+
+.number {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  left: 45%;
+  top: 85%;
+  font-size: 30px;
+}
+
+.guess {
+  background-color: inherit;
+  border: 3px solid white;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.guess:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.check {
+  position: absolute;
+  top: 130%;
+  left: 15%;
+}
+
+.msg {
+  margin-bottom: 40px;
+}
