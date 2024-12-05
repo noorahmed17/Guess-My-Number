@@ -2,7 +2,6 @@
 
 This is a simple number-guessing game where the player tries to guess a random number between 1 and 20. The game gives hints and keeps track of the score and high score.
 
----
 
 ## Features ✨
 - Randomly generates a secret number each time.
@@ -11,7 +10,6 @@ This is a simple number-guessing game where the player tries to guess a random n
 - Lets the player reset and play again with a new random number.
 - Changes the background color when the guess is correct.
 
----
 
 ### Demo 🖥️
-Click here to try the gane [here](https://cerulean-basbousa-b06b46.netlify.app/)
+Click here to try the game [here](https://cerulean-basbousa-b06b46.netlify.app/)
